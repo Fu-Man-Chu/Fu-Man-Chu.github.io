@@ -5,6 +5,7 @@ excerpt: "The Beaver, LSE, issue #907. See the original publication [here](https
 collection: portfolio
 ---
 
+<img src='/images/lse-hong-kong-pub.jpg'>
 ![image](lse-hong-kong-pub.jpg)
 
 <!--
