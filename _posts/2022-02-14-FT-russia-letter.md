@@ -3,7 +3,7 @@ title: 'Beijing’s ambivalence on the crisis speaks volumes'
 date: 2022-03-03
 permalink: /posts/2022/03/ft-russia/
 tags:
-  - International Politics
+  - Politics
 ---
 
 Financial Times, Letters to Editor. See the original publication [here](https://www.ft.com/content/02514919-6948-493c-9d89-9072a96c6737). The letter is a brief expository response to the FT's early coverage of China's position in the Russian invasion of Ukraine, amid the initial confusions.

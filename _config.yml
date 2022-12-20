@@ -10,7 +10,7 @@ locale                   : "en-GB"
 title                    : "Deng Jing-Yuan"
 title_separator          : "-"
 name                     : &name "鄧璟源"
-description              : &description "personal description"
+description              : &description "Consultant at the World Bank"
 url                      : https://Fu-Man-Chu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Fu-Man-Chu/Fu-Man-Chu.github.io"
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Deng Jing-Yuan 鄧璟源"
+  name             : "鄧璟源"
   avatar           : "J Deng.jpg"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : 
+  bio              : "Deng Jing-Yuan"
+  location         :
   employer         :
-  pubmed           : "https://scholar.google.com/citations?user=FSTGDEAAAAAJ&hl=en"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  pubmed           :
+  googlescholar    : "https://scholar.google.com/citations?user=FSTGDEAAAAAJ&hl=en"
+  email            : "mailto:dengjingyuan@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -102,11 +102,11 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "https://www.linkedin.com/in/deng-jing-yuan/"
+  orcid            :
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    :
   steam            :
   tumblr           :
   twitter          : "replacethistwitterhandle"
