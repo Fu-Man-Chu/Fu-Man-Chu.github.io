@@ -10,13 +10,13 @@ redirect_from:
 {% include base_path %}
 
 Education
-======
+--------
 London School of Economics
 * MSc in Economics, 2019-20
 * BSc in Philosophy and Economics, 2016-19
 
 Work experience
-======
+--------
 The World Bank, MENA Chief Economist Office
 * Consultant - Washington DC, 2021-23
 
