@@ -11,15 +11,14 @@ redirect_from:
 
 Education
 ======
-* MSc in Economics, London School of Economics \hfill 2019-20
-* BSc in Philosophy and Economics, London School of Economics \hfill 2016-19
+London School of Economics
+* MSc in Economics, 2019-20
+* BSc in Philosophy and Economics, 2016-19
 
 Work experience
 ======
-* Consultant, 
-* Research Analyst, CRU Group
+The World Bank, MENA Chief Economist Office
+* Consultant - Washington DC, 2021-23
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+CRU Group
+* Research Analyst - London, 2020-21
