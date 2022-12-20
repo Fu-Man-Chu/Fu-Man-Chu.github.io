@@ -17,8 +17,8 @@ London School of Economics
 
 Work experience
 --------
-The World Bank, MENA Chief Economist Office
-* Consultant - Washington DC, 2021-23
+The World Bank
+* Consultant, MENA Chief Economist Office - Washington DC, 2021-23
 
 CRU Group
 * Research Analyst - London, 2020-21
