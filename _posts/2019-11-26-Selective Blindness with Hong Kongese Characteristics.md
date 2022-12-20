@@ -8,7 +8,10 @@ tags:
   - category2
 ---
 
-The Beaver, LSE, issue #907. See original [here](https://issuu.com/readbeaveronline/docs/full_80e3cee5900f8c). The piece berates Western press for biased coverage of the 2019 Hong Kong protests, where nativist populism loomed over democratic aspirations.
+The Beaver, LSE, issue #907. See the original publication [here](https://issuu.com/readbeaveronline/docs/full_80e3cee5900f8c). The piece berates Western press for biased coverage of the 2019 Hong Kong protests, where nativist populism loomed over democratic aspirations.
+
+
+![image](lse-hong-kong-pub.jpg)
 
 Headings are cool
 ======
