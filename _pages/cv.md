@@ -15,10 +15,10 @@ London School of Economics
 * MSc in Economics, 2019-20
 * BSc in Philosophy and Economics, 2016-19
 
-Work experience
+Work Experience
 --------
-The World Bank
-* Consultant, MENA Chief Economist Office - Washington DC, 2021-23
+The World Bank - Washington DC
+* Consultant, MENA Chief Economist Office - 2021-23
 
-CRU Group
-* Research Analyst - London, 2020-21
+CRU Group - London
+* Research Analyst - 2020-21
