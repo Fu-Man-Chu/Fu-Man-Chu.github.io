@@ -1,0 +1,44 @@
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+# This workflow will download a prebuilt Ruby version, install dependencies and run tests with Rake
+# For more information see: https://github.com/marketplace/actions/setup-ruby-jruby-and-truffleruby
+
+name: medium-rss-sync
+# Scheduled workflows are only exectued on default branch.
+# https://stackoverflow.com/questions/63436541/github-action-workflow-schedule-not-working-on-non-default-branch
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron: "0 1,12 * * *"
+
+jobs:
+  rss:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v3
+        with:
+          ref: source
+      - name: Set up Ruby
+        # To automatically get bug fixes and new Ruby versions for ruby/setup-ruby,
+        # change this to (see https://github.com/ruby/setup-ruby#versioning):
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+      - name: Import Medium Feed
+        run: |
+          gem install jekyll-import
+          ruby -r rubygems -e 'require "jekyll-import";
+            JekyllImport::Importers::RSS.run({
+              "source" => "https://medium.com/feed/@hantsy"
+            })'
+      - uses: EndBug/add-and-commit@v9.1.1
+        with:
+          author_name: github-actions
+          author_email: 41898282+github-actions[bot]@users.noreply.github.com
+          message: 'sync my medium rss'
+          add: "*.html"
