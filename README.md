@@ -1,158 +1,50 @@
-<h1 align="center">barks</h1>
+# [Hugo Academic Theme](https://github.com/wowchemy/starter-hugo-academic)
 
-**barks** is a simple, minimalistic theme for the static website generator [Hugo](https://gohugo.io). Its was primarily developed as a theme for personal (academic) websites, although it may also be useful for other purposes 🙃
+[![Screenshot](./preview.png)](https://wowchemy.com/hugo-themes/)
 
+The Hugo **Academic Resumé Template** empowers you to easily create your job-winning online resumé, showcase your academic publications, and create online courses or knowledge bases to grow your audience.
 
+[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://wowchemy.com/hugo-themes/)
+[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
+[![Twitter Follow](https://img.shields.io/twitter/follow/wowchemy?label=Follow%20on%20Twitter)](https://twitter.com/wowchemy)
 
-<br>
+️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, widget-based Wowchemy page builder**, making every site truly personalized ⭐⭐⭐⭐⭐
 
-<p align="center">
-  <img width="80%" src="images/mockup.png">
-</p>
-<br>
+Easily write technical content with plain text Markdown, LaTeX math, diagrams, RMarkdown, or Jupyter, and import publications from BibTeX.
 
-## 🚀 Live Demo
+[Check out the latest demo](https://academic-demo.netlify.app/) of what you'll get in less than 10 minutes, or [get inspired by our academics and research groups](https://wowchemy.com/creators/).
 
-A live demo that showcases **barks** in action is available [here](https://timothygebhard.de/projects/barks).
+The integrated [**Wowchemy**](https://wowchemy.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
 
-<br>
+- 👉 [**Get Started**](https://wowchemy.com/hugo-themes/)
+- 📚 [View the **documentation**](https://wowchemy.com/docs/)
+- 💬 [Chat with the **Wowchemy research community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
+- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=%23MadeWithWowchemy&src=typed_query)
+- ⬇️ **Automatically import your publications from BibTeX** with the [Hugo Academic CLI](https://github.com/wowchemy/hugo-academic-cli)
+- 💡 [Suggest an improvement](https://github.com/wowchemy/wowchemy-hugo-themes/issues)
+- ⬆️ **Updating?** View the [Update Guide](https://wowchemy.com/docs/hugo-tutorials/update/) and [Release Notes](https://github.com/wowchemy/wowchemy-hugo-themes/releases)
 
-## ⚡️ Quickstart
+## We ask you, humbly, to support this open source movement
 
-If you already have a Hugo site, you can use **barks** as your theme by calling:
+Today we ask you to defend the open source independence of the Wowchemy website builder and themes 🐧
 
-```bash
-git submodule add https://github.com/timothygebhard/barks
-```
+We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
 
-in your `themes` directory, and changing the `theme` parameter in your `config.toml` to `"barks"`.
+### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/gcushen)
 
-Otherwise, you might want to check out the [Hugo quickstart guide](https://gohugo.io/getting-started/quick-start/).
+<p align="center"><a href="https://wowchemy.com/templates/" target="_blank" rel="noopener"><img src="https://wowchemy.com/uploads/readmes/academic_logo_200px.png" alt="Hugo Academic Theme for Wowchemy Website Builder"></a></p>
 
-<br><br>
+## Demo image credits
 
-## 📄 Layout for landing page
+- [Open book](https://unsplash.com/photos/J4kK8b9Fgj8)
+- [Course](https://unsplash.com/photos/JKUTrJ4vK00)
 
-If you want to use the landing page as shown in the screenshot above, put `layout: landing_page` into the header of your `_index.md` file.  Additionally, you need to add `image: <image_url>` to specify the image that should be used.
+## Latest news
 
-<br><br>
-
-## ⚙️ Configuration
-
-**barks** comes with a number of customization options to personalize its looks through the `[params]` section in the `config.toml` file. Most options should be rather self-explanatory; nevertheless, here is a quick overview:
-
-<br>
-
-**Head:**
-
-You can add information about the author, a description and some keywords (all of which will be used to generate `<meta>` tags in the `<head>` ) in the `[params.head]` section. Additionally, you can also specify the path to a custom CSS file in which you can change the stylesheets of **barks** or add new styles:
-
-```toml
-[params.head]
-    author = "Carl Barks"
-    custom_css = "<url_to_custom_css_file>"
-    description = "Hi, I'm Carl, and this is my website!"
-    keywords = ["some", "keywords", "to", "describe", "this"]
-```
-
-<br>
-
-**Navigation and footer:**
-
-You can disable the navigation (e.g., if all your content fits onto a single page) and the footer (e.g., if you don’t need the social media icons or a copyright notice) using:
-
-```toml
-[params.navigation]
-    show_navigation = false
-
-[params.footer]
-    show_footer = false
-```
-
-Set these values to `true` (or omit them altogether) if you *do* want to use the navigation and the footer.
-
-<br>
-
-**Typography:**
-
-You can choose the font for the website title (i.e., the header), as well as the main text using:
-
-```toml
-[params.typography]
-    title_font = "Bree Serif"
-    body_font = "Source Sans Pro"
-```
-
-You can use *any* [Google Font](https://fonts.google.com/) here; **barks** will load them automatically.
-
-<br>
-
-**Colors:**
-
-Change the colors of the [theme](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta/name/theme-color), the background, the text, and the links in the navigation using:
-
-```toml
-[params.colors]
-    theme_color = "#333333"
-    background_color = "#fcfbf9"
-    text_color = "#333333"
-    link_color = "#60c17d"
-```
-
-<br>
-
-**Social media:**
-
-You can add your social media profiles and contact options to the footer via the `[params.social]` section. Here is an example of how this might look:
-
-```toml
-[params.social]
-    [params.social.email]
-        name = "E-Mail"
-        class = "fas fa-envelope"
-        url = "mailto:<your_name>@<your_institution>.com"
-        weight = 1
-    [params.social.github]
-        name = "GitHub"
-        class = "fab fa-github"
-        url = "https://github.com/<your_github_username>"
-        weight = 2
-    [params.social.google_scholar]
-        name = "Google Scholar"
-        class = "ai ai-google-scholar-square"
-        url = "https://scholar.google.com/citations?user=<your_user_id>"
-        weight = 3
-```
-
-As you can see, each entry in the `[params.social]` section is itself a section with 4 keys:
-
-* `name`: This will be used for the `title` attribute of the link (which is what you see in the little pop-up if you place your cursor on the link).
-* `class`: This field controls which icon is used. You can use *any* icon from [FontAwesome](https://fontawesome.com/) or [Academicons](https://jpswalsh.github.io/academicons/). The icons are included as `<i class="[class]"></i>`; see the [FontAwesome manual](https://fontawesome.com/v5.15/how-to-use/on-the-web/referencing-icons/basic-use) for more information.
-* `url`: The URL to your profile for the respective platform. For e-mail addresses, add a `mailto:` [prefix](https://en.m.wikipedia.org/wiki/Mailto).
-* `weight`: Use this field to define the order by which the icons are sorted.
-
-<br>
-
-**Disabling page titles:**
-
-By default, each page prints the `title` that is specified in the header as a `<h1>`-level heading at the top of the page. You can disable this for any given page by adding `hide_title: true` to the header.
-
-<br><br>
-
-## 🤓 LaTeX support
-
-You can enable LaTeX support (via [KaTeX](https://katex.org/)) by adding `math: true` to the header section of each page or post in which you want to use it. (That way the corresponding JS is only loaded when it is needed.)
-
-Use single dollar signs `$` for inline formulas, and double dollar signs `$$` for typesetting math in a block.
-
-<br>
-
-## 🦄 Contributing
-
-Direct contributions and pull requests to improve **barks** are always welcome! Otherwise, you can of course also help the development by creating issues for bugs that you have encountered, or for new features that you would like to see implemented 🙃
-
-<br>
-
-## ⚖️ License
-
-**barks** is released under the [MIT license](https://opensource.org/licenses/MIT); see [LICENSE](https://github.com/timothygebhard/barks/blob/main/LICENSE) file.
+<!--START_SECTION:news-->
+* [Easily make an academic CV website to get more cites and grow your audience 🚀](https:&#x2F;&#x2F;wowchemy.com&#x2F;blog&#x2F;easily-make-academic-website&#x2F;)
+* [What&#39;s new in v5.2?](https:&#x2F;&#x2F;wowchemy.com&#x2F;blog&#x2F;whats-new-in-v5.2&#x2F;)
+* [What&#39;s new in v5.1?](https:&#x2F;&#x2F;wowchemy.com&#x2F;blog&#x2F;whats-new-in-v5.1&#x2F;)
+* [Version 5.0 (February 2021)](https:&#x2F;&#x2F;wowchemy.com&#x2F;blog&#x2F;version-5.0-february-2021&#x2F;)
+* [Version 5.0 Beta 3 (February 2021)](https:&#x2F;&#x2F;wowchemy.com&#x2F;blog&#x2F;version-5.0-beta-3-february-2021&#x2F;)
+<!--END_SECTION:news-->
