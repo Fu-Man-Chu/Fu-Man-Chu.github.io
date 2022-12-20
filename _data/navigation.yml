@@ -5,7 +5,10 @@ main:
     
   - title: "Portfolio"
     url: /portfolio/
-        
+  
+  - title: "Travels"
+    url: /talks/
+
   - title: "Articles"
     url: /year-archive/
     
