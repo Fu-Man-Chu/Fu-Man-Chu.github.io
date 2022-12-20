@@ -1,5 +1,5 @@
 ---
-title: 'Blog Post number 2'
+title: 'Beijing’s ambivalence on the crisis speaks volumes'
 date: 2022-03-03
 permalink: /posts/2022/03/ft-russia/
 tags:
