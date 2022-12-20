@@ -1,8 +1,12 @@
 ---
-title: "Portfolio item number 1"
-date: 2022-03-03
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: 'Selective Blindness with Hong Kongese Characteristics'
+date: 2019-11-26
+excerpt: "The Beaver, LSE, issue #907. See the original publication [here](https://issuu.com/readbeaveronline/docs/full_80e3cee5900f8c). The piece berates Western press for biased coverage of the 2019 Hong Kong protests, where nativist populism loomed over democratic aspirations."
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML.
+![image](lse-hong-kong-pub.jpg)
+
+<!--
+  Permalink： https://github.com/Fu-Man-Chu/Fu-Man-Chu.github.io/blob/1544af3caccf58d0f2a5f107342ca244ff00261f/_posts/lse-hong-kong-pub.jpg
+--->
