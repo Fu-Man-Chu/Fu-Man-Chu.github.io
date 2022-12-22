@@ -1,5 +1,5 @@
 ---
-title: 'Russian missile problem - Estimating how many Kh-101 cruise missiles Russia produced'
+title: 'Russian missile problem - using German tank problem to estimate Russian Kh-101 cruise missile production'
 date: 2022-12-22
 permalink: /posts/2022/12/russa-missile/
 tags:
@@ -12,13 +12,15 @@ Like the average layman, I began following Michael Kofman's Twitter account afte
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Interesting look at estimating Kh-101s based on serial numbers and batches. A different approach than trying to guestimate max engine production capacity for missiles. <a href="https://t.co/Rblumiigud">https://t.co/Rblumiigud</a></p>&mdash; Michael Kofman (@KofmanMichael) <a href="https://twitter.com/KofmanMichael/status/1605555833282011136?ref_src=twsrc%5Etfw">December 21, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-That is, we can use a well-tested method of statistcal inference to estimate how many units have been produced in total just from the serial numbers of units in a much smaller sample. British statisticians discovered this method during WWII to estimate the total number of tanks Germany produced (hence the name), to a remarkable degree of accuracy. 
+That is, we can use a well-tested and surprisingly simple method of statistcal inference to estimate how many units have been produced in total just from the serial numbers of units in a much smaller sample. British statisticians discovered this method during WWII to estimate the total number of tanks Germany produced (hence the name), to a remarkable degree of accuracy. 
 
-<img src="">
+<img src="https://raw.githubusercontent.com/Fu-Man-Chu/Fu-Man-Chu.github.io/1544af3caccf58d0f2a5f107342ca244ff00261f/_posts/lse-hong-kong-pub.jpg">
 
 <sup> Source: [Ruggles, R.; Brodie, H. (1947). "An Empirical Approach to Economic Intelligence in World War II". *Journal of the American Statistical Association*. 42 (237): 72.](http://cms.dm.uba.ar/academico/materias/2docuat2019/probabilidades_y_estadistica_C/GTP.pdf) </sup>
 
-So how does it work? I'm not going to go over the statistics here (click [here](https://web.williams.edu/Mathematics/sjmiller/public_html/math/papers/GTPv10.pdf) for a great explainer), but I'll 
+So how does it work? I'm not going to go over the statistics here (click [here](https://web.williams.edu/Mathematics/sjmiller/public_html/math/papers/GTPv10.pdf) for a great explainer), but I'll spell out the assumptions.
+
+1. Serial numbers follow a uniform distribution
 
 
 
@@ -37,10 +39,10 @@ where $N$ is the population maximum (which we know in this case) and $R$ the pop
 
 To see why, the sample of $k$ values is drawn from integers from $R$ to $N$. So there are always 	$\binom{N-R}{k}$. 
 
-The expected value can is therefore
+The expected value is therefore
 
 $$
-E(M) = \sum_{m=R}^{R+k} {m * Pr(M=m)} = \sum_{m=R}^{R+k} {m * \frac{\binom{N-m-1}{k-1}}{\binom{N-R}{k}}}
+E(M) = \sum_{m=R}^{R+k} {m Pr(M=m)} = \sum_{m=R}^{R+k} {m \frac{\binom{N-m-1}{k-1}}{\binom{N-R}{k}}}
 $$
 
-There would be a tremendous amount of algebra involved if one is looking for a closed form solution (See [here](https://web.williams.edu/Mathematics/sjmiller/public_html/math/talks/GermanTankProblem_Talk_Hampshire2019.pdf) and a more general treatment [here](https://web.williams.edu/Mathematics/sjmiller/public_html/math/papers/GTPv10.pdf)). Finally we can substitute $E(M)$ for observed value sample minimum $m$, which is the closest we can get to $E(M)$ with our sample. We can then arrive at a closed form solution to $R$.
+There would then be a tremendous amount of algebra involved if one is looking for a closed form solution (See [here](https://web.williams.edu/Mathematics/sjmiller/public_html/math/talks/GermanTankProblem_Talk_Hampshire2019.pdf) and a more general treatment [here](https://web.williams.edu/Mathematics/sjmiller/public_html/math/papers/GTPv10.pdf)). After that, we can just substitute $E(M)$ for observed value sample minimum $m$, which is the closest we can get to $E(M)$ with our sample. We can then arrive at a closed form solution to $R$.
