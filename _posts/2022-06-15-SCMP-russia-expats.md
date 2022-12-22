@@ -6,7 +6,7 @@ tags:
   - Politics
 ---
 
-South China Morning Post, Opinions. See the original publication [here](https://www.scmp.com/comment/opinion/article/3181617/backlash-against-russians-living-abroad-all-too-familiar-anxious). The war in Ukraine has prompted a rejection of all things Russian in the US and Europe, with expats now primary targets. Such sentiment is sure to ring alarm bells among Chinese living overseas, for whom the racism endured during the pandemic remains a constant threat
+*South China Morning Post*, Opinions. See the original publication [here](https://www.scmp.com/comment/opinion/article/3181617/backlash-against-russians-living-abroad-all-too-familiar-anxious). The war in Ukraine has prompted a rejection of all things Russian in the US and Europe, with expats now primary targets. Such sentiment is sure to ring alarm bells among Chinese living overseas, for whom the racism endured during the pandemic remains a constant threat
 
 Published version
 ======

@@ -6,7 +6,7 @@ tags:
   - Politics
 ---
 
-Financial Times, Letters to Editor. See the original publication [here](https://www.ft.com/content/02514919-6948-493c-9d89-9072a96c6737). The letter is a brief expository response to the FT's early coverage of China's position in the Russian invasion of Ukraine, amid the initial confusions.
+*Financial Times*, Letters to Editor. See the original publication [here](https://www.ft.com/content/02514919-6948-493c-9d89-9072a96c6737). The letter is a brief expository response to the FT's early coverage of China's position in the Russian invasion of Ukraine, amid the initial confusions.
 
 <!---
 
