@@ -1,0 +1,6 @@
+---
+
+type: "widget_page"
+
+---
+
