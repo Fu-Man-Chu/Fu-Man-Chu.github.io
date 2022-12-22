@@ -8,16 +8,17 @@ tags:
 
 ---
 
-Like the average layman, I began following Michael Kofman's Twitter account after Mr Putin decided we should not enjoy the first spring after COVID. Recently, he shared the meticulous [work by John Hardie](https://www.longwarjournal.org/archives/2022/12/estimating-russias-kh-101-production-capacity.php) compiling the serial numbers of downed Kh-101 cruise missiles and from there estimating Russia's production capacity. I'll leave the military experts to educate us why those missiles are a big deal, but as an economist I can say: I just spotted a German tank problem in the wild!
+Like the average layman, I began following Michael Kofman's Twitter account after Mr Putin decided we should not enjoy the first spring after COVID. Yesterday he shared the meticulous [work by John Hardie](https://www.longwarjournal.org/archives/2022/12/estimating-russias-kh-101-production-capacity.php) compiling the serial numbers of downed Kh-101 cruise missiles and from there estimating Russia's production capacity. I'll leave the military experts to educate us why those missiles are a big deal, but as an economist I can say: I just spotted a German tank problem in the wild!
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Interesting look at estimating Kh-101s based on serial numbers and batches. A different approach than trying to guestimate max engine production capacity for missiles. <a href="https://t.co/Rblumiigud">https://t.co/Rblumiigud</a></p>&mdash; Michael Kofman (@KofmanMichael) <a href="https://twitter.com/KofmanMichael/status/1605555833282011136?ref_src=twsrc%5Etfw">December 21, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-That is, we can use a well-tested method of statistcal inference to estimate how many units have been produced in total just from the serial numbers of a much smaller sample. British statisticians discovered this method during WWII to estimate the number of German tanks (hence the name), to a remarkable degree of accuracy. 
+That is, we can use a well-tested method of statistcal inference to estimate how many units have been produced in total just from the serial numbers of units in a much smaller sample. British statisticians discovered this method during WWII to estimate the total number of tanks Germany produced (hence the name), to a remarkable degree of accuracy. 
 
 <img src="">
 
 <sup> Source: [Ruggles, R.; Brodie, H. (1947). "An Empirical Approach to Economic Intelligence in World War II". *Journal of the American Statistical Association*. 42 (237): 72.](http://cms.dm.uba.ar/academico/materias/2docuat2019/probabilidades_y_estadistica_C/GTP.pdf) </sup>
 
+So how does it work? I'm not going to go over the statistics here (click [here](https://web.williams.edu/Mathematics/sjmiller/public_html/math/papers/GTPv10.pdf) for a great explainer), but I'll 
 
 
 
