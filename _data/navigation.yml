@@ -1,0 +1,16 @@
+# main links links
+main:
+  - title: "Research"
+    url: /publications/
+
+  - title: "Opinion Pieces"
+    url: /year-archive/
+
+  - title: "Writing Portfolio"
+    url: /portfolio/
+
+  - title: "Travels"
+    url: /talks/
+
+  - title: "CV"
+    url: /cv/
