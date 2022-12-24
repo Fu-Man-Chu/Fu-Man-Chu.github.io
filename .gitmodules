@@ -1,6 +1,0 @@
-[submodule "themes/barks"]
-	path = themes/barks
-	url = https://github.com/timothygebhard/barks
-[submodule "data/themes/barks"]
-	path = data/themes/barks
-	url = https://github.com/timothygebhard/barks
